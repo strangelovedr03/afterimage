@@ -33,7 +33,7 @@
       <div class="wrap">
         <p class="eyebrow">Privacy</p>
         <h1>Privacy Policy</h1>
-        <p class="updated">Last updated: November 11, 2026</p>
+        <p class="updated">Last updated: November 12, 2026</p>
         <p>
           Afterimage is a photo frame for iPad and Mac. It is designed so that your photos stay on your device. This policy
           explains what the app handles and why.
@@ -96,11 +96,24 @@
           <li>Anonymous usage statistics only record which gesture was used (for example “next photo by gesture”), never camera data.</li>
         </ul>
 
+        <h2 id="weather">Weather</h2>
+        <p>
+          Afterimage Pro can show the weather below the clock. It is off by default and uses a city you choose; Afterimage
+          never reads your device's location.
+        </p>
+        <ul>
+          <li>To find the city, the name you type is sent to your device's own geocoding service (Apple on iPad and Mac, Google on Android), the same one other apps use to look up places. Android tablets without Google services have no such service; there the name is sent to <a href="https://nominatim.org/">OpenStreetMap's Nominatim</a> instead (search results © OpenStreetMap contributors).</li>
+          <li>The forecast comes directly from the Norwegian Meteorological Institute (<a href="https://api.met.no/">MET Norway</a>). Afterimage sends only the city's coordinates rounded to about 1 km, and only while the frame is on screen and the stored forecast has expired. Like any website, MET Norway also receives your IP address; nothing identifies you or your device.</li>
+          <li>The chosen city and the forecast stay on your device and are never included in usage statistics or crash reports.</li>
+          <li>Weather data: MET Norway, under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> licence.</li>
+        </ul>
+
         <h2>Data stored on your device</h2>
         <ul>
           <li><strong>Resized copies of photos</strong>, kept in the app's cache so the frame opens quickly. The system may clear this cache at any time.</li>
           <li><strong>Framing data</strong>: the positions of faces and subjects found in each photo.</li>
-          <li><strong>Your preferences</strong>, such as the chosen album, style, clock, night and privacy settings.</li>
+          <li><strong>Your preferences</strong>, such as the chosen album, style, clock, weather city, night and privacy settings.</li>
+          <li><strong>The latest weather forecast</strong> for your city, if the weather is on.</li>
         </ul>
         <p>Deleting the app removes everything it stored.</p>
 
